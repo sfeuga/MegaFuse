@@ -26,6 +26,10 @@ to compile on debian or ubuntu you need these additional packages:
 	
 	apt-get install libcrypto++-dev libcurl4-openssl-dev libdb5.3++-dev libfreeimage-dev libreadline-dev libfuse-dev
 
+to compile on fedora you need these additional packages:
+	
+	dnf install cryptopp-devel libcurl-devel libdb-cxx-devel freeimage-devel readline-devel fuse-devel
+
 you can pass additional options to the fuse module via the command line option -f. example:
 	
 	./MegaFuse -f -o allow_other -o uid=1000
